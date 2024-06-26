@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Swifter</string>
+    <string name="set_gesture">제스쳐 설정하기</string>
+    <string name="choose_jesture">제스쳐 선택</string>
+    <string name="swipe_up">위로 스와이프</string>
+    <string name="swipe_down">아래로 스와이프</string>
+    <string name="swipe_right">오른쪽으로 스와이프</string>
+    <string name="swipe_left">왼쪽으로 스와이프</string>
+    <string name="touch_screen">화면 터치</string>
+    <string name="complete">완료</string>
+</resources>

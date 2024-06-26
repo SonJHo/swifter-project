@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/light_gray"/> <!-- 원하는 배경색으로 변경 -->
+    <corners android:radius="10dp"/> <!-- 둥글게 할 반경 설정 -->
+    <stroke
+        android:width="1.5dp"
+        android:color="@color/super_light_gary"/>
+</shape>

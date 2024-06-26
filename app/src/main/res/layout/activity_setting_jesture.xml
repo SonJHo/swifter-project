@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_gray"
+    >
+
+    <TextView
+        android:id="@+id/tv_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/choose_jesture"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/btn_back" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/radio_group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_choose">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/btn_swipe_up"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/swipe_up"
+            android:buttonTint="@color/orange"
+            />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/btn_swipe_down"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/swipe_down"
+            android:buttonTint="@color/orange"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/btn_swipe_right"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/swipe_right"
+            android:buttonTint="@color/orange"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/btc_swipe_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:buttonTint="@color/orange"
+            android:text="@string/swipe_left"
+            android:textColor="@color/white"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/btn_touch_screen"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/touch_screen"
+            android:buttonTint="@color/orange"
+
+
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:backgroundTint="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/complete"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector_back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
