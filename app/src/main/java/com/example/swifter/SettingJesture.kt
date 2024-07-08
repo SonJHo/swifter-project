@@ -18,15 +18,10 @@ class SettingJesture : AppCompatActivity() {
 
         binding.btnComplete.setOnClickListener{  //완료 눌렀을때
             setJesture()
-
         }
-
         binding.btnBack.setOnClickListener{
             finish()
         }
-
-
-
     }
 
     private fun setJesture(){

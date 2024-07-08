@@ -14,7 +14,7 @@
         tools:targetApi="31">
         <activity
             android:name=".SettingJesture"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -22,7 +22,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
 
             android:exported="true">
             <intent-filter>
